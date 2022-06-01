@@ -1,10 +1,11 @@
 import React from 'react';
+import styles from './Input.module.css';
 
 const Input = ({ placeholder, type, ...props }) => {
   return (
-    <form>
-      <input type={type} placeholder={placeholder} />
-    </form>
+    <>
+      <input className={styles.input} type={type} placeholder={placeholder} />
+    </>
   );
 };
 

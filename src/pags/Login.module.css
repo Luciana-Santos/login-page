@@ -1,0 +1,11 @@
+.loginInfo {
+  padding: 30px;
+  display: grid;
+  align-content: center;
+}
+
+.buttonContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
